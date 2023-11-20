@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-botom: 10px;
+  width: 15%;
+}
+
+.flex-container:nth-child(even) {
+    background: #ADD8E6;   
+}
+
+.flex-container:nth-child(odd) {
+    background: #FFE4B5;   
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p {
+    /*      top  right  bottom  left */
+    margin: 0    0      0       0;
+}
+
+/* debug
+* {
+	color: red;
+}
+*/
