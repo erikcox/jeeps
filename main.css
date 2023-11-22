@@ -28,12 +28,11 @@
 }
 
 p {
-    /*      top  right  bottom  left */
+    /*    top  right  bottom  left */
     margin: 0    0      0       0;
 }
 
-/* debug
-* {
-	color: red;
+/* .debug {
+  border: 3px dashed red;
 }
 */
